@@ -33,7 +33,7 @@
             "processId": "${command:pickRemoteProcess}",
             "pipeTransport": {
                 "pipeProgram": "docker",
-                "pipeArgs": [ "exec", "-i", "source_web_1" ],
+                "pipeArgs": [ "exec", "-i", "twtraders" ],
                 "debuggerPath": "/vsdbg/vsdbg",
                 "pipeCwd": "${workspaceRoot}",
                 "quoteArgs": false

@@ -1,9 +1,0 @@
-version: "3.7"
-services:
-  tailwindtraders:
-    env_file:
-      - env-file
-    image: localhost:5000/tailwindtraders
-    ports:
-      - "8080:80"
-    

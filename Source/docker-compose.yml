@@ -4,6 +4,7 @@ services:
   web:
     env_file:
       - app/env-file
+    container_name: twtraders
     image: localhost:5000/twtraders:latest
     # build:
     #   context: app
