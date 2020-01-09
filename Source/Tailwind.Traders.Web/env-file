@@ -1,5 +1,5 @@
 apiUrl=/api/v1
 ApiUrlShoppingCart=/api/v1
 productImagesUrl=https://raw.githubusercontent.com/microsoft/TailwindTraders-Backend/master/Deploy/tailwindtraders-images/product-detail
-MongoConnectionString=
-SqlConnectionString=
+MongoConnectionString=mongodb://dglover-apps30-twtnosql:gyCXyr1YpaJk8iw5ZfyKQkra1ldZmEqquD3XacfuEfIoEJKD6hccVuQPROkzq2mwY6DNVQ3j4z6Fyj6q9wxJ9g==@dglover-apps30-twtnosql.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
+SqlConnectionString=Data Source=172.28.87.103;Initial Catalog=tailwind;Integrated Security=False;User ID=sa;Password=M1cr0s0ft;
