@@ -1,0 +1,5 @@
+apiUrl=/api/v1
+ApiUrlShoppingCart=/api/v1
+productImagesUrl=https://raw.githubusercontent.com/microsoft/TailwindTraders-Backend/master/Deploy/tailwindtraders-images/product-detail
+MongoConnectionString=
+SqlConnectionString=
