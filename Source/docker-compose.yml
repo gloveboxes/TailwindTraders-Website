@@ -2,15 +2,11 @@ version: '3.4'
 
 services:
   web:
-    image: ${REGISTRY:-tailwindtraders}/web:${TAG:-latest}
-    build:
-      context: Tailwind.Traders.Web
-      dockerfile: Dockerfile
-    environment:
-      - REACT_APP_USE_B2C=false
-      - UseB2C=false
-      - B2CAuth:ClientId=
-      - B2CAuth:Authority=
-      - B2CAuth:Scopes=
+    env_file:
+      - app/env-file
+    image: localhost:5000/twtraders:latest
+    # build:
+    #   context: app
+    #   dockerfile: Dockerfile
     ports:
-      - "2000:80"
+      - "8080:80"
